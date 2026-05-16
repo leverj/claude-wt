@@ -1,0 +1,27 @@
+{
+  "name": "@leverj/claude-wt",
+  "version": "0.1.0",
+  "description": "Isolated git worktrees for parallel Claude Code sessions",
+  "bin": {
+    "claude-wt": "./bin/cli.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "os": [
+    "darwin"
+  ],
+  "files": [
+    "bin/",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leverj/claude-wt.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "license": "UNLICENSED",
+  "private": false
+}
