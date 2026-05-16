@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Isolated git worktrees for parallel Claude Code sessions",
   "bin": {
-    "claude-wt": "./bin/cli.js"
+    "claude-wt": "bin/cli.js"
   },
   "engines": {
     "node": ">=18"
