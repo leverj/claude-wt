@@ -17,17 +17,6 @@ You then run `claude` in the IDE's integrated terminal (or it auto-starts in the
 
 ## Install
 
-### Prerequisites
-
-GitHub Packages auth — one-time per machine:
-
-```sh
-echo "@leverj:registry=https://npm.pkg.github.com" >> ~/.npmrc
-echo "//npm.pkg.github.com/:_authToken=$GITHUB_TOKEN" >> ~/.npmrc
-```
-
-Token needs `read:packages` scope. Most engineers already have one.
-
 ### Global (recommended)
 
 ```sh

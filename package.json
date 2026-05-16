@@ -20,7 +20,8 @@
     "url": "git+https://github.com/leverj/claude-wt.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
   },
   "license": "UNLICENSED",
   "private": false
